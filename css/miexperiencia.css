@@ -1,0 +1,40 @@
+.sectionexp{
+    border-radius: 5px;
+    font-size: 1.2em; 
+    width: 850px;
+    background-color: rgb(177, 141, 255);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background: rgb(49, 49, 49);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 485px;
+}
+#boton:hover {
+    cursor: pointer;
+}
+
+aside {
+    border: 0px;
+    font-size: 1.2em;
+}
+  table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+           padding: 10px;
+        }
+.images{
+    width: 200px;
+    height: 160px;
+}
+.division{
+    background-color: black;
+}

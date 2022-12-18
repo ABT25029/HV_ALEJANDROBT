@@ -1,0 +1,189 @@
+@font-face {
+    font-family:"DancingScript" ;
+    src: url(../fuente/DancingScript-VariableFont_wght.ttf);
+ }
+body{
+    font-family: ur;
+    background-image:url(../imagenes/fondo2.jpg);
+    width: 100%;
+    margin: 0 auto;
+   /* border: 1pt solid  blueviolet; */
+    }
+
+figure{
+    width:12%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #81DAF5;
+    float: left;
+    margin: 0;
+    }
+
+#titulo{
+    
+    width: 88%;
+    height:100px;
+    background: rgb(229, 248, 85);
+    float: left;
+    }
+
+#subtitulo{
+    width: 88%;
+    height: 100px;
+    background: #81DAF5;
+    float: right;
+    font-family: "DancingScript";
+    }
+
+#titulo p{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+    }
+
+#subtitulo p{
+    font-size: 30px;
+    margin-left: 60px;
+    font-weight: bold;
+    }
+
+nav{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 97, 97);
+    float: left;
+    }  
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 15px 5px 15px;
+    }
+
+nav ul li a{
+    color:white;
+    font-size:17px;
+    text-decoration: none;
+    transition: .3s;
+    }
+
+nav ul li a:hover{
+    font-size: 25px;
+    color:cyan;
+    }
+
+nav ul li #contacto:hover{
+    font-size: 25px;
+    color: red;
+    }
+
+nav ul li #inicio:hover{
+    font-size: 25px;
+    color: rgb(255, 255, 0);
+    }        
+
+section, aside{
+    display: inline-block;
+    margin: 10px 5px 5px 5px; 
+    vertical-align: top;
+    text-align: justify;
+    }
+
+section {
+    width: 68%;
+    background-color: rgb(43, 112, 89);
+    border: 2px solid  blueviolet;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;    
+}
+ 
+section ul  {
+     list-style-type:square;
+}
+
+#article1{
+    width: 100%;
+    float: left;
+    background-color: salmon;
+    }
+
+#article2{
+    width: 100%;
+    float: left;
+    background-color: lemonchiffon;
+    }
+
+section p{
+    padding: 0px 10px ;
+    }
+
+section h4 p{
+    margin: 15px 0px;
+    }
+
+aside {
+    width: 25%;
+    float:right;
+    position: relative;
+    background-color: #C7E1E2;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;    
+}
+#mi_proyecto{
+    width: 97%;
+    }
+
+#ImgMiProyecto1 {
+    height: 85%;
+    width: 85%;
+    border: 5px solid #eee;
+    margin: 5px 5px 5px 5px;   
+    padding: 5px 5px ;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;  
+}
+
+#ImgMiProyecto1:hover {
+    height: 110%;
+    width: 110%;
+    margin-left: 20px;
+}    
+
+.labelTab1 {
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;    
+    font-size: 0.7em; 
+    color: rgba(36, 59, 112, 0.705);
+}
+
+footer{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 0.85em;
+    color: rgb(0, 255, 34);
+}
+
+#lineaFooter { 
+    border:none;
+    height: 0px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 3px solid #a4e4ff;
+      box-shadow: 0px 20px 20px -20px rgb(252, 252, 252);
+     margin: -50px auto 10px; 
+}
+.imahv{
+    height:280px;
+    width: 230px;
+}
